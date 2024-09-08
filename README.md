@@ -2,3 +2,14 @@
 
 [클래식 콘서트 검색 엔진](https://www.classical-concert-kr.info/)의 데이터를 담당하는 스크립트입니다. 
 공연예술통합전산망 [KOPIS API](https://kopis.or.kr/por/cs/openapi/openApiInfo.do?menuId=MNU_00074)를 이용하여 공연의 메타데이터와 포스터를 얻고 OpenAI의 ChatGPT API를 사용하여 작곡가, 연주곡 등을 추출합니다. 
+현재는 [pythonanywhere](https://www.pythonanywhere.com/)를 이용하여 웹사이트를 운영하고 있지만 
+
+
+
+TODO
+[x] pythonanywhere에서 웹사이트 호스팅하기
+[x] CronJob 으로 매일 새로운 콘서트 정보 입력
+[x] sqlite3에서 postgresql으로 이동하기 
+[x] Docker 환경 구축하기
+[ ] 미디어 파일을 Amazon S3 에 저장하여 관리
+[ ] Amazon EC2로 Docker 이미지 배포하기
