@@ -416,7 +416,6 @@ def parse_pieces(kopis_id, pieces):
     for piece in pieces:
         if "|" in piece:
             piece = piece.split("|")
-            # print('composer: {}, piece: {}'.format(piece[0], piece[1]))
             piece_tuple = (kopis_id, piece[0], piece[1])
             piece_tuples.append(piece_tuple)
     return piece_tuples
