@@ -35,6 +35,7 @@ sqlite3.register_adapter(datetime, adapt_datetime)
 sqlite3.register_converter("date", convert_date)
 sqlite3.register_converter("timestamp", convert_datetime)
 
+
 area_code_to_name = {
     11: '서울특별시',
     26: '부산광역시',
