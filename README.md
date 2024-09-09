@@ -7,6 +7,6 @@ TODO
 - [x] pythonanywhere에서 웹사이트 호스팅하기
 - [x] CronJob 으로 매일 새로운 콘서트 정보 입력
 - [x] sqlite3에서 postgresql으로 이동하기 
-- [x] Docker 환경 구축하기
+- [x] Docker 환경 구축하기 [Docker image](https://hub.docker.com/layers/niceweather/concertfinder/1.0.2/images/sha256-d3f1e35b258eea46e498c2ea02465d4cee57637f09311e11da96458af7ec28fa?context=repo)
 - [ ] 미디어 파일을 Amazon S3 에 저장하여 관리
 - [ ] Amazon EC2로 Docker 이미지 배포하기
